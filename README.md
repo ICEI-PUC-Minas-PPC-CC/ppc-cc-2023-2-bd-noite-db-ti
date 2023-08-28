@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+## GERENCIAMENTO DE ATIVOS DE TI. BD
 
 `PPC-CC: PUC Poços de Caldas - Ciência da Computação`
 `Disciplina: NOME DA DISCIPLINA`
@@ -6,10 +6,11 @@
 
 ## Integrantes
 
-- Jeff Bezos
-- Bill Gates
-- Larry Ellison
-- Mark Zuckerberg
+- Guilherme Andrade
+- Otavio Augusto
+- Vinicius Henrique
+- João Pedro Barbosa
+
 
 # Documentação
 
