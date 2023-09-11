@@ -1,6 +1,6 @@
 # 1. Introdução
 
-Atualmente um dos maiores problemas enfrentados pelas empresas de TI, que particularmente realizam serviços de empréstimo de equipamentos é conseguir realizar uma gerencia adequada dos seus estoques de equipamentos, seja ele sua localização, condição ou até mesmo um histórico de empréstimo, sendo esse a causa de diversos transtornos causados pela fausência de um gerenciamento consistente. o. Através deste sistema, a empresa será capaz de monitorar a quantidade de equipamentos disponíveis, quantos estão emprestados, bem como o local onde cada equipamento se encontra nos diversos setores da empresa. 
+Atualmente um dos maiores problemas enfrentados pelas empresas de TI, que particularmente realizam serviços de empréstimo de equipamentos é conseguir realizar uma gerência adequada dos seus estoques de equipamentos, seja ele sua localização, condição ou até mesmo um histórico de empréstimo, sendo esse a causa de diversos transtornos causados pela fausência de um gerenciamento consistente. Através deste sistema, a empresa será capaz de monitorar a quantidade de equipamentos disponíveis, quantos estão emprestados, bem como o local onde cada equipamento se encontra nos diversos setores da empresa. 
 
 
 #### 1.1 Entidades Encontradas
