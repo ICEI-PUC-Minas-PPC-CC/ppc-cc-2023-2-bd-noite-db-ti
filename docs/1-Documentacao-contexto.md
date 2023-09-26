@@ -14,7 +14,9 @@ As entidades encontradas no problema apresentado foram:
 - Setores 
 
 ### 1.2 Contexto das Entidades
+
 Na primeira análise, objetivos das entidades.
+
 - Entidade _Periferico_: Responsável por armazenar todos os periféricos que a empresa que utilizará o sistema possui para cadastrar seus periféricos que estarão disponiveis para empréstimo.
 - Entidade _Categoria_: Responsável por armazenar qual a categoria do equipamento cadastrado.
 - Entidade _Empresa_: Responsável por armazenar a empresa para qual o equipamento foi emprestado
@@ -34,29 +36,29 @@ Na primeira análise, quais foram os atributos iniciais encontrados?
 - Categoria_
 
 #### Empresa
-- Id
+- Id - FK
 - Nome
 - Setores
 - CNPJ
   
 #### Setores
 
-- Id
+- Id - PK
 - Tipo_Setor
 - Nome_Periferico
-- Tipo_Periferico
+- Id_Periferico - FK
 
 #### Emprestimo
-- Id_Equipamento
-- Id_Empresa
+- Id_Equipamento - FK
+- Id_Empresa - FK
   
 #### Categoria
-- Id
-- Nome_cat
+- Id - PK
+- Nome_cat -PK
 - Desc_cat
 #### Responsavel
 - Nome
 - CPF
-- CNPJ_Empresa
+- CNPJ_Empresa - PK
 
 ## 2. Relacionamentos
