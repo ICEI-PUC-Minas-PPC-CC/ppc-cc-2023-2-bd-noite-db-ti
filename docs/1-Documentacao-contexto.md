@@ -62,3 +62,8 @@ Na primeira análise, quais foram os atributos iniciais encontrados?
 - CNPJ_Empresa - PK
 
 ## 2. Relacionamentos
+- Entidade RESPONSÁVEL tem relação com a Entidade EMPRESA
+- Entidade EMPRESA tem relação com a Entidade SETORES
+- Entidade Setores tem relação com a Entidade PERIFÉRICOS
+- Entidade PERIFÉRICOS tem relação com a Entidade CATEGORIA
+
