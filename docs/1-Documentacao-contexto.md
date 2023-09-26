@@ -25,6 +25,14 @@ Na primeira análise, objetivos das entidades.
 
 ### 1.3  Levantamento Inicial Entidades x Atributos
 Na primeira análise, quais foram os atributos iniciais encontrados?
+
+- Atributos_Periferico_: id, nome, quantidade, categoria;
+- Atributos_Empresa_: id, nome, setores, cnpj;
+- Atributos_Setores_: id, tipo_setor, nome_periferico, tipo_periferico;
+- Atributos_Emprestimo_: id_equipamento; id_empresa;
+- Atributos_Categoria_: id, Nome_cat; Desc_cat;
+- Atributos_Responsavel_: Nome, CPF, CNPJ_Empresa;
+
 #### Periferico
 - Id - PK
 - Nome
