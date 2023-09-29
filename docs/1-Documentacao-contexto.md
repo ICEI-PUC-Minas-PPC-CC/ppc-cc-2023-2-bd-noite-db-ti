@@ -69,7 +69,8 @@ Na primeira análise, quais foram os atributos iniciais encontrados?
 - Entidade PERIFÉRICOS tem relação com a Entidade CATEGORIA
 
 ## 3. Modelo Conceitual
-  ![REL](https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2023-2-bd-noite-db-ti/assets/43485533/f6e0c423-512f-4b0f-b907-db889ebdfa1d)
+![Capturar](https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2023-2-bd-noite-db-ti/assets/43485533/5f48f09f-700a-4b27-8e56-d5acacc40731)
+
 
 ## 3. Representação Tabular
 - Cliente: Esq_Cliente(<ins>_ID_</ins>, Nome, Telefone, Endereço, CNPJ)
