@@ -6,22 +6,20 @@ Atualmente um dos maiores problemas enfrentados pelas empresas de TI, que partic
 ### 1.1 Entidades Encontradas
 Na primeira análise, quais foram as entidades encontradas?
 As entidades encontradas no problema apresentado foram:
-- Periferico
-- Empresa
-- Categoria
-- Responsavel
+- Cliente
+- Detalhamento
+- Periférico
 - Emprestimo
-- Setores 
+- Categoria
 
 ### 1.2 Contexto das Entidades
 
 Na primeira análise, objetivos das entidades.
 
-- Entidade _Periferico_: Responsável por armazenar todos os periféricos que a empresa que utilizará o sistema possui para cadastrar seus periféricos que estarão disponiveis para empréstimo.
+- Entidade _Periferico_: Responsável por armazenar todos os periféricos que a empresa que utilizará o sistema possui para cadastrar seus periféricos que estarão disponiveis para empréstimo e também se o periférico esta disponível ou não.
 - Entidade _Categoria_: Responsável por armazenar qual a categoria do equipamento cadastrado.
-- Entidade _Empresa_: Responsável por armazenar a empresa para qual o equipamento foi emprestado
-- Entidade _Setores_: Responsável por armazenar os setores da empresa para os periféricos foram destinados
-- Entidade _Responsavel_: Responsável por armazenar todos os responsáveis da empresa. O responsável será encarregado de receber o periférico.
+- Entidade _Cliente_: Responsável por armazenar a empresa para qual o equipamento foi emprestado.
+- Entidade _Detalhamento_: Responsável por armazenar o endereço do cliente para qual foi realizado o emprestimo.
 - Entidade _Emprestimo_: Responsável por armazenar o controle de periféricos emprestados.
 
 
