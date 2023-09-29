@@ -70,3 +70,7 @@ Na primeira análise, quais foram os atributos iniciais encontrados?
 ## 3. Modelo Conceitual
   ![REL](https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2023-2-bd-noite-db-ti/assets/43485533/f6e0c423-512f-4b0f-b907-db889ebdfa1d)
 
+## 3. Representação Tabular
+- Cliente: Esq_Cliente(<ins>_ID_</ins>, Nome, Telefone, Endereço, CNPJ)
+- Equipamento: Esq_Equipamento(<ins>_ID_</ins>, Nome, Quantidade, Categoria, Num_Serie, Marca, Modelo, Disponibilidade)
+- Emprestimo: Esq_Emprestimo(<ins>_ID-empresa_</ins>, <ins>_ID-equipamento_</ins>, data_emprestimo, data_devolucao) 
