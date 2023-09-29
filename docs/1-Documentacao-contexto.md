@@ -56,6 +56,7 @@ Na primeira análise, quais foram os atributos iniciais encontrados?
 - NUM_SERIE
 - Marca
 - Modelo
+- Disponibilidade
   
 #### CATEGORIA
 - ID - (PK)
