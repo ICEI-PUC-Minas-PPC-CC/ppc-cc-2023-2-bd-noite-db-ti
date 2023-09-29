@@ -67,3 +67,6 @@ Na primeira análise, quais foram os atributos iniciais encontrados?
 - Entidade Setores tem relação com a Entidade PERIFÉRICOS
 - Entidade PERIFÉRICOS tem relação com a Entidade CATEGORIA
 
+## 3. Modelo Conceitual
+  ![REL](https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2023-2-bd-noite-db-ti/assets/43485533/f6e0c423-512f-4b0f-b907-db889ebdfa1d)
+
