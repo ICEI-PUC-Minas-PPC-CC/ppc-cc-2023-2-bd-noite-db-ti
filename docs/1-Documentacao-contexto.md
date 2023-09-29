@@ -65,14 +65,14 @@ Na primeira análise, quais foram os atributos iniciais encontrados?
 - 
 ## 2. Relacionamentos
 - TABELA CLIENTE
-  ID (FK): Chave estrangeira que identifica exclusivamente cada cliente e tem relação com a entidade EMPRÉSTIMO.
+- ID (FK): Chave estrangeira que identifica exclusivamente cada cliente e tem relação com a entidade EMPRÉSTIMO.
   Endereço (FK): Chave entrangeira que faz referência a entidade DETALHAMENTO.
   
 - TABELA EMPRÉSTIMO
-  id_Equipamento (FK): Chave estrangeira que referencia a entidade PERIFÉRICOS.
+- id_Equipamento (FK): Chave estrangeira que referencia a entidade PERIFÉRICOS.
   
 - TABELA PERIFÉRICO
-  ID (PK): Chave primária que identifica exclusivamente cada periférico.
+- ID (PK): Chave primária que identifica exclusivamente cada periférico.
   Categoria (FK): Chave estrangeira que referencia a entidade
 
 ## 3. Modelo Conceitual
