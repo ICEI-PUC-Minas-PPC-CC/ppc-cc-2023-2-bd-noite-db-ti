@@ -27,38 +27,41 @@ Na primeira análise, objetivos das entidades.
 
 Na primeira análise, quais foram os atributos iniciais encontrados?
 
-#### Periferico
-- Id - PK
+#### CLIENTE
+- ID - (FK)
+- Nome
+- Telefone
+- Endereço
+- CNPJ
+
+#### DETALHAMENTO
+- Rua
+- Numero
+- CEP
+- Bairro
+- Complemento
+  
+#### EMPRÉSTIMO
+
+- ID_EQUIPAMENTO - (FK)
+- ID_EMPRESA - (FK)
+- DATA_EMPRÉSTIMO
+- DATA_DEVOLUÇÃO
+
+#### PERIFÉRICO
+- Id - (PK)
 - Nome
 - Quantidade
-- Categoria_
-
-#### Empresa
-- Id - FK
-- Nome
-- Setores
-- CNPJ
+- Categoria
+- NUM_SERIE
+- Marca
+- Modelo
   
-#### Setores
-
-- Id - PK
-- Tipo_Setor
-- Nome_Periferico
-- Id_Periferico - FK
-
-#### Emprestimo
-- Id_Equipamento - FK
-- Id_Empresa - FK
-  
-#### Categoria
-- Id - PK
-- Nome_cat -PK
-- Desc_cat
-#### Responsavel
-- Nome
-- CPF
-- CNPJ_Empresa - PK
-
+#### CATEGORIA
+- ID - (PK)
+- NOME_CAT - (PK)
+- DESC_CAT
+- 
 ## 2. Relacionamentos
 - Entidade RESPONSÁVEL tem relação com a Entidade EMPRESA
 - Entidade EMPRESA tem relação com a Entidade SETORES
