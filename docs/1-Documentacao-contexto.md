@@ -64,10 +64,16 @@ Na primeira análise, quais foram os atributos iniciais encontrados?
 - DESC_CAT
 - 
 ## 2. Relacionamentos
-- Entidade RESPONSÁVEL tem relação com a Entidade EMPRESA
-- Entidade EMPRESA tem relação com a Entidade SETORES
-- Entidade Setores tem relação com a Entidade PERIFÉRICOS
-- Entidade PERIFÉRICOS tem relação com a Entidade CATEGORIA
+- TABELA CLIENTE
+  ID (FK): Chave estrangeira que identifica exclusivamente cada cliente e tem relação com a entidade EMPRÉSTIMO.
+  Endereço (FK): Chave entrangeira que faz referência a entidade DETALHAMENTO.
+  
+- TABELA EMPRÉSTIMO
+  id_Equipamento (FK): Chave estrangeira que referencia a entidade PERIFÉRICOS.
+  
+- TABELA PERIFÉRICO
+  ID (PK): Chave primária que identifica exclusivamente cada periférico.
+  Categoria (FK): Chave estrangeira que referencia a entidade
 
 ## 3. Modelo Conceitual
 ![Capturar](https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2023-2-bd-noite-db-ti/assets/43485533/5f48f09f-700a-4b27-8e56-d5acacc40731)
