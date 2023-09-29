@@ -73,7 +73,7 @@ Na primeira análise, quais foram os atributos iniciais encontrados?
   
 - TABELA PERIFÉRICO
 - ID (PK): Chave primária que identifica exclusivamente cada periférico.
-  Categoria (FK): Chave estrangeira que referencia a entidade
+- Categoria (FK): Chave estrangeira que referencia a entidade
 
 ## 3. Modelo Conceitual
 ![Capturar](https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2023-2-bd-noite-db-ti/assets/43485533/5f48f09f-700a-4b27-8e56-d5acacc40731)
