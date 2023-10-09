@@ -83,3 +83,60 @@ Na primeira análise, quais foram os atributos iniciais encontrados?
 - Cliente: Esq_Cliente(<ins>_ID_</ins>, Nome, Telefone, Endereço, CNPJ)
 - Equipamento: Esq_Equipamento(<ins>_ID_</ins>, Nome, Quantidade, Categoria, Num_Serie, Marca, Modelo, Disponibilidade)
 - Emprestimo: Esq_Emprestimo(<ins>_ID-empresa_</ins>, <ins>_ID-equipamento_</ins>, data_emprestimo, data_devolucao) 
+
+``
+CREATE TABLE CLIENTES(
+	ID_EMPRESA INT AUTO_INCREMENT PRIMARY KEY,
+    NOME_EMPRESA varchar(100) not null,
+    Telefone varchar(20) ,
+    CNPJ varchar(14) UNIQUE
+);
+
+CREATE TABLE ENDERECO(
+	PK_ENDERECO INT,
+    FOREIGN KEY PK_ENDERECO REFERENCES CLIENTE (ID_EMPRESA),
+    RUA varchar(200) NOT NULL,
+    BAIRRO varchar(200) NOT NULL,
+    NUM INT NOT NULL,
+    CEP varchar(20) NOT NULL,
+    COMPLEMENTO varchar(200)
+   
+);
+
+CREATE TABLE PERIFERICOS (
+    ID_PERIFERICO INT AUTO_INCREMENT PRIMARY KEY,
+    NOME_PERIFERICO varchar(200) NOT NULL,
+    QUANTIDADE INT NOT NULL,
+    NUM_SERIE varchar(100) NOT NULL UNIQUE,
+    MARCA varchar(200) NOT NULL,
+    CATEGORIA INT, 
+    FOREIGN KEY CATEGORIA REFERENCES CATEGORIA(ID_CATEGORIA),
+    MODELO varchar(200) NOT NULL,
+    DISPONIBILIDADE varchar(100) NOT NULL  
+);
+    
+CREATE TABLE CATEGORIAS (
+    ID_CATEGORIA INT AUTO_INCREMENT PRIMARY KEY,
+    NOME_CAT varchar(200) NOT NULL,
+    DESC_CAT VARCHAR(200) not null
+);
+
+CREATE TABLE EMPRESTIMOS(
+	ID_EMPRESA INT,
+    ID_PERIFERICO INT,
+    FOREIGN KEY ID_EMPRESA REFERENCES CLIENTES(ID_CLIENTE),
+    FOREIGN KEY ID_PERIFERICO REFERENCES PERIFERICOS(ID_PERIFERICO),
+    DATA_EMPRESTIMO DATETIME,
+    DATA_DEVOLUCAO DATETIME
+);
+
+	
+    
+    
+   
+
+
+
+    
+    
+``
